@@ -3,13 +3,8 @@ import {
   SiSocketdotio,
   SiPrisma,
   SiNextdotjs,
-  SiFlask,
 } from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+import { FramerMotionIcon, ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -33,7 +28,6 @@ import ViteSvg from "@/public/icons/vite.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
-import DjangoSvg from "@/public/icons/django.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
@@ -128,10 +122,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Vite",
         icon: ViteSvg,
       },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
-      },
     ],
   },
   {
@@ -148,14 +138,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Socket.io",
         icon: SiSocketdotio,
-      },
-      {
-        name: "Flask",
-        icon: SiFlask,
-      },
-      {
-        name: "Django",
-        icon: DjangoSvg,
       },
     ],
   },
